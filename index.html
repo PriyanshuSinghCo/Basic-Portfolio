@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image" class="logo">
+                <ul id="sidemenu">
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Experienced Accountant</p>
+                <h1>Hi, I'm <span>Sudhanshu </span> Singh <br /> form Hazaribagh</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Experienced Accountant with a demonstrated history of working in the various firms. Skilled in Tally, Tax Deducted at Source (TDS), Goods and Services Tax (GST), Payroll, and Microsoft Office. Strong accounting professional with a Master of Commerce focused in Accounting from Vinoba Bhave University. Certified from Tally Education Pvt. Ltd. in the field of accounting such as Tally certificates, TDS Certificate, Data Analysis and Verification.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>GST</span><br />Income Tax</li>
+                            <li><span>Account Payable</span><br />Accounts Receivable</li>
+                            <li><span>TDS</span><br />Bank Reconciliation</li>
+                            <li><span>General Ledger Accounting</span><br />TDS Return & professional Tax</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span><br>JALDHARA POLYTUBES PRIVATE LIMITED</li>
+                            <li><span>2019-2021</span><br>Shradha Palak Communication Private Limited</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>M.Com from Vinoba Bhave University(VBU)</li>
+                            <li><span>2020</span><br>B.Com from Markham College of Commerce,Hazaribagh</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------- services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-solid fa-calculator"></i>
+                    <h2>Senior Accountant</h2>
+                    <p>Experienced Accountant with a demonstrated history of working in the various firms.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Senior Accountant</h2>
+                    <p>Experienced Accountant with a demonstrated history of working in the various firms.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Senior Accountant</h2>
+                    <p>Experienced Accountant with a demonstrated history of working in the various firms.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------portfolio--------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="image/background.jpg" >
+                    <div class="layer">
+                        <h3>Something Something </h3>
+                        <p>sdngfsdbmbnf jebfebfewhf hkjdewhiueh ihwerih;ehwe biewhfiwehuifgh</p>
+                        <a href="#"><i class="fa fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/background.jpg" >
+                    <div class="layer">
+                        <h3>Something Something </h3>
+                        <p>sdngfsdbmbnf jebfebfewhf hkjdewhiueh ihwerih;ehwe biewhfiwehuifgh</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/background.jpg" >
+                    <div class="layer">
+                        <h3>Something Something </h3>
+                        <p>sdngfsdbmbnf jebfebfewhf hkjdewhiueh ihwerih;ehwe biewhfiwehuifgh</p>
+                        <a href="#"><i class="fa fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+<!-- ----------------contact---------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-solid fa-paper-plane"></i>Contact@gmail.com</p>
+                <p><i class="fa fa-solid fa-phone"></i>9142840755</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fa fab fa-instagram"></i></a>
+                    <a href=""><i class="fa fab fa-linkedin"></i></a>
+                </div>
+                <a href="image/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row ="20" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>© Priyanshu Singh fullstack devloper <i class="fa fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
