@@ -388,9 +388,7 @@ nav .fas {
 /* ---------------------phones--------------- */
 
 @media only screen and (max-width: 600px){
-    #header{
-        background-image: url(image/);
-    }
+   
     .header-text{
         margin-top: 100%;
         font-size: 16px;
@@ -457,3 +455,24 @@ nav .fas {
     margin-top: -40px;
     display: block;
 }
+
+
+
+@media (max-width: 768px) {
+    .work {
+      flex-basis: 100%;
+    }
+
+    .layer {
+        opacity: 1;
+        pointer-events: none;
+        position: relative;
+        background: #333;
+      }
+    .work-list{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+  }
