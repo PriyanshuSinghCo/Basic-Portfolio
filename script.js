@@ -24,6 +24,32 @@ function closemenu(){
     sidemenu.style.right = "-200px";
 }
 
+
+// function opentab(tabName) {
+//     let tablinks = document.getElementsByClassName("tab-links");
+//     let tabcontents = document.getElementsByClassName("tab-contents");
+  
+//     for (let link of tablinks) {
+//       link.classList.remove("active-link");
+//     }
+//     for (let content of tabcontents) {
+//       content.classList.remove("active-tab");
+//     }
+  
+//     // Add a tiny delay to trigger reflow for animation
+//     const target = document.getElementById(tabName);
+//     setTimeout(() => {
+//       target.classList.add("active-tab");
+//     }, 10);
+  
+//     event.currentTarget.classList.add("active-link");
+//   }
+  
+
+
+
+
+
 const scriptURL = "https://script.google.com/macros/s/AKfycbw3ZBM5l_VDNxrwNvDNY1_G7dzPFPb6YsDhDTCZ43mME_4GLf7xHcSuwjl6smwmvpaHeA/exec"
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
